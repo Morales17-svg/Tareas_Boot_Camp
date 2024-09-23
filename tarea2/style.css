@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/*contenedor principal*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*encabezado*/
+header {
+    background-color: #001f3f; /*azul marino oscuro*/
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header h2 {
+    margin: 5px 0 0 0 ;
+    font-size: 24px;
+    color: white;
+}
+
+/* secciones del contenido*/
+.objetivo_P, .educacion, .cursos, .idiomas, .competencias, .laboral {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #001f3f;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 10px;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* sección de datos personales*/
+.section ul li p {
+    display: inline;
+}
+
+/* estilos para la educación */
+.educacion ul li p {
+    margin: 5px 0 0 0;
+    font-size: 16 px;
+    color: #4a90e2;
+}
+
+/* experiencia laboral */
+.laboral ul ul {
+    margin-left: 20px;
+}
+
+.laboral ul li strong {
+    color: #4a90e2;
+}
+
+strong {
+    color: #001f3f;
+}
