@@ -1,11 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-/*contenedor principal*/
+/* Ajuste del contenedor principal */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -14,26 +7,46 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/*encabezado*/
+/* Encabezado con la imagen alineada */
 header {
-    background-color: #001f3f; /*azul marino oscuro*/
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    background-color: #001f3f; /* Azul marino oscuro */
     color: white;
+    padding: 20px;
+}
+
+/* Ajustes de la imagen */
+header img {
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el encabezado */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    padding: 20px 0;
+}
+
+/* Ajustes de los títulos del encabezado */
+header h1, header h2 {
+    margin: 0;
+    
 }
 
 header h1 {
-    margin: 0;
     font-size: 24px;
 }
 
 header h2 {
-    margin: 5px 0 0 0 ;
     font-size: 24px;
     color: white;
 }
 
-/* secciones del contenido*/
+/* Otras secciones */
 .objetivo_P, .educacion, .cursos, .idiomas, .competencias, .laboral {
     margin-bottom: 30px;
 }
@@ -59,7 +72,7 @@ ul li {
     margin: 10px 0;
 }
 
-/* sección de datos personales*/
+/* sección de datos personales */
 .section ul li p {
     display: inline;
 }
