@@ -141,14 +141,15 @@ esVocal()
 function evaluarNumeros(a = 1, b = 2, c = 3) {
     if (a > 0 && b > 0 && c > 0) {
         console.log("Todos los números son positivos");
-    } else if (a < 0 || b < 0 || c < 0) {
-        console.log("Al menos un número es negativo");
-    } else {
+    } else if (a < 0 && b < 0 && c < 0) {
         console.log("Todos los números son negativos");
+    } else {
+        console.log("Al menos un número es negativo");
     }
 }
 
-evaluarNumeros()
+evaluarNumeros();
+
 
 // Exportar todas las funciones
 export {
